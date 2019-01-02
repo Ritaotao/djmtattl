@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.db
+# django files
+db.sqlite3
 
 # additional files
 data/

@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'turnstile'
+    'turnstile',
 ]
 
 MIDDLEWARE = [
@@ -81,9 +81,9 @@ DATABASES = {
     },
     'turnstile': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mta_sample2',
+        'NAME': 'mta_sample',
         'USER': 'postgres',
-        'PASSWORD': '12345679',
+        'PASSWORD': 'p@ssword',
         'HOST': 'localhost',
         'PORT': '5432',
     },
