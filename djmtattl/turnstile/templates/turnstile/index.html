@@ -1,0 +1,26 @@
+{% extends 'turnstile/base.html' %}
+
+{% block content %}
+
+    <h2>Tabular</h2>
+    <hr>
+    <table class="display" id="myTable" style="width:100%">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Entry</th>
+        <th>Exit</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for station in station_data %}
+        <tr>
+            <td>{{ station.device__station__name }}</td>
+            <td>{{ station.entry }}</td>
+            <td>{{ station.exit }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+
+{% endblock %}
