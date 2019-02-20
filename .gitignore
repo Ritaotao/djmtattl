@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.db
-# django files
-db.sqlite3
 
 # additional files
 data/
@@ -109,3 +107,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
