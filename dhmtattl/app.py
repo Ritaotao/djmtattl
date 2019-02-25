@@ -22,7 +22,7 @@ from sqlalchemy import func
 
 # set params
 # connString = os.environ['DB_URI']
-connString = 'sqlite:///C:\\Users\\Ruitao.Cheng\\Desktop\\mta\\mta_sample1718.db'
+connString = 'sqlite:///mta\\mta_sample1718.db'
 conn = create_engine(connString, echo=True)
 
 def make_session(engine=conn):
